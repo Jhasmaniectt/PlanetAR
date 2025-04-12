@@ -1,0 +1,17 @@
+# Normaliza los finales de línea (CRLF vs LF)
+* text=auto
+
+# Trata archivos de código como texto
+*.cpp text
+*.h text
+*.cs text
+*.ini text
+
+# Archivos binarios (no convertir líneas)
+*.uasset binary
+*.umap binary
+*.png binary
+*.jpg binary
+*.fbx binary
+*.wav binary
+*.ogg binary

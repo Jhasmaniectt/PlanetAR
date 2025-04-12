@@ -1,0 +1,101 @@
+# Configuración general
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+.vscode/
+.idea/
+
+# Archivos de build y binarios
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.tmp
+*.log
+*.userprefs
+*.DS_Store
+
+# Plugins generados o temporales
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/Saved/
+
+# Archivos de paquetes
+*.pdb
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.ipa
+*.apk
+*.xcodeproj
+*.xcworkspace
+
+# Ignora backups automáticos o logs
+*_backup_*.log
+*.log
+
+# Ignora datos de shader cache
+*.local
+*.db
+*.cache
+*.symbol
+*.generated
+*.g.cs
+
+# Archivos específicos de Unreal Engine
+*.uprojectdirs
+*.uasset
+*.umap
+*.ubulk
+*.uexp
+*.tmp
+*.uplugin
+*.uproject
+
+# Ignorar paquetes de paquetes empaquetados
+*.pak
+*.sig
+*.ucas
+*.utoc
+
+# Ignorar configuraciones locales
+Config/DefaultEditorSettings.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+Config/DefaultInput.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+Config/DefaultGameUserSettings.ini
+
+# No ignores archivos fuente importantes (asegúrate de tener estos en tu repo)
+!Content/**
+!Config/**
+!Source/**
+!*.uproject
+
+/Intermediate/
+/Saved/
+/Build/
+/Binaries/
+/.vs/
+
+.gradle/
+*.iml
+.gradle/
+*.log
+*.lock
+*/build/
+*/local.properties
+*/.idea/
+*/.gradle/
